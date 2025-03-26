@@ -5,7 +5,7 @@ theme = tokyonight
 background-opacity = 0.90
 
 # Font
-font-family = "JetBrains Mono Nerd Font"
+font-family = "JetBrainsMono Nerd Font"
 font-style = bold
 bold-is-bright = true
 font-size = 14
@@ -37,5 +37,5 @@ keybind = ctrl+shift+comma=reload_config
 # background = #0a0a0a
 # foreground = #cdd6f4
 
-window-width = 160
-window-height = 36
+window-width = 150
+window-height = 33
