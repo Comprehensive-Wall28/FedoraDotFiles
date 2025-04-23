@@ -1,41 +1,26 @@
-#rename to config
-
-# Theme
 theme = tokyonight
-background-opacity = 0.90
+#background-opacity = 0.80
 
-# Font
 font-family = "JetBrainsMono Nerd Font"
 font-style = bold
 bold-is-bright = true
 font-size = 14
 
-# Appearance
 gtk-titlebar = false
 gtk-single-instance = true
 gtk-tabs-location = top
 gtk-wide-tabs = false
 window-padding-y = 50,0
-window-padding-x = 50,0
+window-padding-x = 60,0
 window-padding-balance = true
 #window-decoration = false
-
-# Other
 mouse-hide-while-typing = true
-# copy-on-select = clipboard
+
 shell-integration-features = cursor,sudo,no-title
 confirm-close-surface = false
 
-# Configuration Management
 keybind = ctrl+comma=open_config
 keybind = ctrl+shift+comma=reload_config
 
-
-# background = #011423
-# foreground = #CBE0F0
-#
-# background = #0a0a0a
-# foreground = #cdd6f4
-
-window-width = 150
-window-height = 33
+window-width = 154
+window-height = 34 
