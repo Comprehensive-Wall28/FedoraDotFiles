@@ -4,6 +4,7 @@
  "logo": {
     "source" : "fedora-silverblue",
     "padding": {
+    "top" : 1,
     },
   },
 "display": {
@@ -31,6 +32,11 @@
     "key": "│ └",
     "keyColor": "magenta"
     },
+{
+      "type": "custom", // SoftwareStart
+      // Changed RGB and standard blue to Bright Blue (94m), kept text bold (1m)
+      "format": "\u001b[94m├────────────────────┤ \u001b[1mDE Information\u001b[22m ├────────────────────┤\u001b[0m"
+    },
     {
     "type": "wm",
     "key": " DE/WM",
@@ -45,6 +51,11 @@
     "type": "terminal",
     "key": "│ └",
     "keyColor": "blue"
+    },
+    {
+      "type": "custom", // SoftwareStart
+      // Changed Bright Blue (94m) to Bright Red (91m), kept text bold (1m)
+      "format": "\u001b[91m├──────────────────┤ \u001b[1mSystem Information\u001b[22m ├──────────────────┤\u001b[0m"
     },
     {
     "type": "host",
@@ -73,16 +84,11 @@
     "key": "│ ├󰾆",
     "keyColor": "red"
     },
-    {
+       {
     "type": "uptime",
     "key": "│ ├󰅐",
     "keyColor": "red"
     }, 
-    {
-    "type": "display",
-    "key": "│ └󰍹",
-    "keyColor": "red"
-    },
 {
     "type": "custom", // InformationEnd
     // Changed Bright Magenta (95m) to Bright Red (91m)
