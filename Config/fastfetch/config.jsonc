@@ -11,21 +11,25 @@
 },
 "modules": [
     "break",
+ {
+      "type": "custom", // HardwareStart
+      "format": "\u001b[95m╭─────────────────┤ \u001b[1mHardware Information\u001b[22m ├─────────────────╮\u001b[0m",
+    },
     {
     "type": "os",
     "key": " DISTRO",
-    "keyColor": "yellow"
+    "keyColor": "magenta"
     },
     {
     "type": "kernel",
     "key": "│ ├",
-    "keyColor": "yellow"
+    "keyColor": "magenta"
     },
  
     {
     "type": "shell",
     "key": "│ └",
-    "keyColor": "yellow"
+    "keyColor": "magenta"
     },
     {
     "type": "wm",
@@ -44,61 +48,46 @@
     },
     {
     "type": "host",
-    "key": "󰌢 SYSTEM",
-    "keyColor": "green"
+    "key": "󰌢 HOST",
+    "keyColor": "red"
     },
     {
     "type": "cpu",
     "key": "│ ├󰻠",
-    "keyColor": "green"
+    "keyColor": "red"
     },
     {
     "type": "gpu",
     "key": "│ ├󰻑",
     "format": "{2}",
-    "keyColor": "green"
+    "keyColor": "red"
     },
     {
-            "type": "display",
+    "type": "display",
     "key": "│ ├󰍹",
-    "keyColor": "green",
+    "keyColor": "red",
     "compactType": "original-with-refresh-rate"
     },
     {
     "type": "memory",
     "key": "│ ├󰾆",
-    "keyColor": "green"
+    "keyColor": "red"
     },
     {
     "type": "uptime",
     "key": "│ ├󰅐",
-    "keyColor": "green"
-    },
+    "keyColor": "red"
+    }, 
     {
     "type": "display",
     "key": "│ └󰍹",
-    "keyColor": "green"
+    "keyColor": "red"
     },
-    {
-    "type": "sound",
-    "key": " AUDIO",
-    "format": "{2}",
-    "keyColor": "magenta"
-    },
-    {
-    "type": "player",
-    "key": "│ ├󰥠",
-    "keyColor": "magenta"
-    },
-    {
-    "type": "media",
-    "key": "│ └󰝚",
-    "keyColor": "magenta"
-    },
-    {
-    "type": "custom",
-    "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m  \u001b[38m  \u001b[39m  \u001b[39m    \u001b[38m  \u001b[37m  \u001b[36m  \u001b[35m  \u001b[34m  \u001b[33m  \u001b[32m  \u001b[31m  \u001b[90m "
-    },
+{
+    "type": "custom", // InformationEnd
+    // Changed Bright Magenta (95m) to Bright Red (91m)
+    "format":          "\u001b[91m╰───────────────────────┤ \u001b[1mFedora \u001b[22m├─────────────────────────╯\u001b[0m\n"
+  },
     "break",
     ]
 }
