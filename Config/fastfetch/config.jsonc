@@ -14,7 +14,7 @@
     "break",
  {
       "type": "custom", // HardwareStart
-      "format": "\u001b[95m╭─────────────────┤ \u001b[1mHardware Information\u001b[22m ├─────────────────╮\u001b[0m",
+      "format": "\u001b[95m╭──────────────────────┤ \u001b[1mFastfetch\u001b[22m ├───────────────────────╮\u001b[0m",
     },
     {
     "type": "os",
@@ -35,7 +35,7 @@
 {
       "type": "custom", // SoftwareStart
       // Changed RGB and standard blue to Bright Blue (94m), kept text bold (1m)
-      "format": "\u001b[94m├────────────────────┤ \u001b[1mDE Information\u001b[22m ├────────────────────┤\u001b[0m"
+      "format": "\u001b[94m├──────────────────────────────────────────────────────────┤\u001b[0m"
     },
     {
     "type": "wm",
@@ -55,7 +55,7 @@
     {
       "type": "custom", // SoftwareStart
       // Changed Bright Blue (94m) to Bright Red (91m), kept text bold (1m)
-      "format": "\u001b[91m├──────────────────┤ \u001b[1mSystem Information\u001b[22m ├──────────────────┤\u001b[0m"
+      "format": "\u001b[91m├──────────────────────────────────────────────────────────┤\u001b[0m"
     },
     {
     "type": "host",
@@ -92,7 +92,7 @@
 {
     "type": "custom", // InformationEnd
     // Changed Bright Magenta (95m) to Bright Red (91m)
-    "format":          "\u001b[91m╰───────────────────────┤ \u001b[1mFedora \u001b[22m├─────────────────────────╯\u001b[0m\n"
+    "format":          "\u001b[91m╰──────────────────────────────────────────────────────────╯\u001b[0m\n"
   },
     "break",
     ]
