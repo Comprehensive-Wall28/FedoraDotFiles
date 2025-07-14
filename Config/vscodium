@@ -1,0 +1,7 @@
+{
+    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "editor.fontSize": 15,
+    "files.autoSave": "afterDelay",
+    "editor.fontWeight": "bold"
+}
